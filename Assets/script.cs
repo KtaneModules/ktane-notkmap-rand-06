@@ -381,7 +381,7 @@ public class script : MonoBehaviour {
 	}
 
 #pragma warning disable 414
-    private readonly string TwitchHelpMessage = @"Send !{0} 1/2/3/4 to press numbered button. Send !{0} D to press D button. Send !{0} clear to clear input field. Send !{0} + to press S button. For example: !{0} 133+244+11223++";
+    private readonly string TwitchHelpMessage = @"Send !{0} 1/2/3/4 to press numbered button. Send !{0} D to press D button. Send !{0} clear to clear input field. Send !{0} + to press S button. For example: !{0} 1332312132131122+";
 #pragma warning restore 414
 
     IEnumerator ProcessTwitchCommand (string Command) {
